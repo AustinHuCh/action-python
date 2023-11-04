@@ -4,6 +4,8 @@ on:
    branches:
      - 'main'
  workflow_dispatch:
+ pull_reqeust:
+   types: [opened]
 
 jobs:
   pytest:
