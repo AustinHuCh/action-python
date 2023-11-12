@@ -1,11 +1,11 @@
 name: pytest
 on: 
- push:
-   branches:
-     - 'main'
- workflow_dispatch:
- pull_reqeusts:
-   types: [opened]
+  push:
+    branches:
+      - 'main'
+  workflow_dispatch:
+  pull_reqeust:
+    types: [opened]
 
 jobs:
   pytest:
