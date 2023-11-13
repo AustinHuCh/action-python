@@ -9,6 +9,7 @@ on:
 
 jobs:
   pytest:
+    environment: test
     runs-on: ubuntu-latest
     steps: 
       - name: pre checkout
